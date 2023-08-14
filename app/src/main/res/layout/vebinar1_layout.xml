@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5f1fe">
+
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="308dp"
+        android:layout_height="368dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dictionary" />
+
+    <TextView
+        android:id="@+id/articleName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/articleImage" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="292dp"
+        android:layout_height="339dp"
+        android:layout_marginTop="8dp"
+        android:hyphenationFrequency="none"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/articleName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

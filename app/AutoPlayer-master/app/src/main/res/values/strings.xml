@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AutoPlayer Example</string>
+    <string-array name="video_view">
+        <item>Название проекта</item>
+        <item>Грантовые заявки</item>
+        <item>Аннотация проекта</item>
+        <item>Этика журналистики</item>
+        <item>SMM.Инструменты продвижения</item>
+    </string-array>
+</resources>
